@@ -1,9 +1,11 @@
 /* ==== PAGE WIDTH ==== */
 body {
+    background-color: antiquewhite;
     padding-left: 20%;
     padding-right: 20%
  }
 h1 {
+    color: brown;
     font-size: 72px;
     text-align: center;
    letter-spacing: 4px;
@@ -11,6 +13,7 @@ h1 {
 }
 
 h2 {
+    color: brown;
     font-size: 30px;
     margin-bottom: 64px; 
     font-family: sans-serif;
@@ -21,6 +24,7 @@ h2 {
 }
 
 h3 {
+    color: brown;
     font-size: 32px;
     margin-bottom: 4px;
 }
@@ -29,4 +33,6 @@ p {
     font-size: 22px;
     margin-top: 0;
     line-height: 1.6;
+    color:black;
+
 }
