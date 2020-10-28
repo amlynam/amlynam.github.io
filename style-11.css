@@ -2,11 +2,13 @@
 * { margin: 0; padding: 0; border: none; box-sizing: border-box }
 img { display: block; width: 100%; height: auto }
 
-/* container for web page blocks */
-.container-block { 
-   /* border: solid 1px red;*/
-    padding: 50px 18% 50px 18%;
+/* Desktops */
+@media (min-width:768px) { .container-block { padding: 4% 18% } }
+
+/* Mobiles */
+@media (max-width:767px) { .container-block { padding: 12% 8% } }
  }
+}
 }
 
 /* Main heading */
